@@ -9,5 +9,5 @@ def LargeSmallSum(arr):
     odd.sort()
     even.sort()
     return(odd[1]+even[len(even)-2])
-arr=[3,5,6,7,8,90,34,32,14,45]
+arr=[3,5,6,7,8,90,34,45]
 print(LargeSmallSum(arr))
